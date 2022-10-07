@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="discription" content="Matchy Matchy mini game">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+		<div id="container">
+			<img src="image/question.png" class="luffy">
+			<img src="image/question.png" class="ussop">
+			<img src="image/question.png" class="sanji">
+			<img src="image/question.png" class="ussop">
+			<img src="image/question.png" class="nami">
+			<img src="image/question.png" class="chopper">
+			<img src="image/question.png" class="zoro">
+			<img src="image/question.png" class="sanji">
+			<img src="image/question.png" class="zoro">
+			<img src="image/question.png" class="luffy">
+			<img src="image/question.png" class="chopper">
+			<img src="image/question.png" class="nami">
+		</div>
+	<script>
+		function luffy(){
+			$(this).attr('src','image/luff1.jpg');
+		}
+		$(document).ready(function(){
+			$('.luffy').click(luffy);
+		});
+
+		function zoro(){
+			$(this).attr('src','image/zoro1.jpg');
+		}
+		$(document).ready(function(){
+			$('.zoro').click(zoro);
+		});
+		function nami(){
+			$(this).attr('src','image/nami.jpg');
+		}
+		$(document).ready(function(){
+			$('.nami').click(nami);
+		});
+		function sanji(){
+			$(this).attr('src','image/sanji.jpg');
+		}
+		$(document).ready(function(){
+			$('.sanji').click(sanji);
+		});
+		function ussop(){
+			$(this).attr('src','image/ussop.jpg');
+		}
+		$(document).ready(function(){
+			$('.ussop').click(ussop);
+		});
+		function chopper(){
+			$(this).attr('src','image/chopper.png');
+		}
+		$(document).ready(function(){
+			$('.chopper').click(chopper);
+		});
+	</script>
+</body>
+</html>

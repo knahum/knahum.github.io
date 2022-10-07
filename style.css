@@ -1,0 +1,12 @@
+
+#container{
+	width: 350px;
+	height: 430px;
+	background-color: gray;
+	margin: 0 auto;
+}
+	#container .luffy, .zoro, .nami, .sanji, .ussop, .chopper{
+		width: 100px;
+		height: 100px;
+		margin-left: 10px;
+	}
